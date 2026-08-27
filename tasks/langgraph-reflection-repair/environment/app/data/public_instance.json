@@ -1,0 +1,9 @@
+{
+  "name": "app",
+  "version": 9,
+  "tags": ["x", "y"],
+  "port": 99999,
+  "replicas": 7,
+  "owner": "keep@example.com",
+  "env": "staging"
+}
