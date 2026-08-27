@@ -1,0 +1,12 @@
+# Normalize all text to LF in the repo; scripts must stay LF for Linux runners.
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.toml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+Dockerfile text eol=lf
+
+# Treat these as binary (never touch line endings)
+*.png binary
+*.csv text eol=lf
